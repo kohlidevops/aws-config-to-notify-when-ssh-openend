@@ -1,4 +1,4 @@
-# How to notify users when Restricted Ports Access from Anywhere using AWS Config? 
+# How to remove the SSH port when it access from Anywhere using AWS Config? (Automatic Remediation)
 
 ![image](https://github.com/kohlidevops/aws-config-to-notify-when-ssh-openend/assets/100069489/90e444fe-bb26-4219-b703-c1bcc3e15b83)
 
