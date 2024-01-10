@@ -12,7 +12,7 @@ Trusted Identity – AWS Service
 
 Use case – Use case for other AWS Service – Select – Systems Manager 
 
-Attach permission – Select – AmazonSNSFullAccess – Next 
+Attach permission – Select – AmazonSSMAutomation – Next 
 
 Role Name – AWSConfigSSMRole 
 
