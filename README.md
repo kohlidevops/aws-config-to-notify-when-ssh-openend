@@ -1,4 +1,4 @@
-# How to remove the SSH port when it access from Anywhere using AWS Config? (Automatic Remediation)
+# How to notify DevOps team when SSH port is OpenToAnywhere using AWS Config? (Automatic Remediation)
 
 ![image](https://github.com/kohlidevops/aws-config-to-notify-when-ssh-openend/assets/100069489/90e444fe-bb26-4219-b703-c1bcc3e15b83)
 
@@ -12,9 +12,9 @@ Trusted Identity – AWS Service
 
 Use case – Use case for other AWS Service – Select – Systems Manager 
 
-Attach permission – Select – AmazonSSMAutomation – Next 
+Attach permission – Select – AmazonSNSFullAccess – Next 
 
-Role Name – AWSConfigSSMRole 
+Role Name – AWSConfigSNSRole
 
 Create a Role 
 
@@ -66,7 +66,7 @@ Go to actions and select Manage Remediation.
 
 ![image](https://github.com/kohlidevops/aws-config-to-notify-when-ssh-openend/assets/100069489/dd77b1cf-caac-46b7-92dc-f81c91ccde74)
 
-Here you have 2 options: Automatic and Manual. Choose Automatic since we want the inbound rule to get deleted automatically. 
+Here you have 2 options: Automatic and Manual. Choose Automatic since we want to notify users when restricted port is open to anywhere. 
 
 ![image](https://github.com/kohlidevops/aws-config-to-notify-when-ssh-openend/assets/100069489/3cfd38e1-133f-4546-9e61-52f9d97705b8)
 
